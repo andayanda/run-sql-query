@@ -38,12 +38,11 @@
 	<p><input type="button" id="run_posts_query_button" class="button button-primary" value="Descargar posts" /></p>
 	<p><input type="button" id="run_users_query_button" class="button button-primary" value="Descargar usuarios" /></p>
 	<label for="start">Data inicial:</label>
-
-	<input type="date" id="start" name="trip-start" value="2022-07-22" min="2022-01-01" max="2023-12-31" />
+	<input type="date" id="startDate" name="trip-start" value="2022-07-22" min="2021-01-01" max="2023-12-31" />
 	<label for="start">Data final:</label>
+	<input type="date" id="endDate" name="trip-start" value="2023-12-31" min="2021-01-01" max="2023-12-31" />
 
-	<input type="date" id="endDate" name="trip-start" value="2023-12-31" min="2022-01-01" max="2022-12-31" />
-	<p><input type="button" id="run_others-query_button" class="button button-primary" value="Descargar otros" /></p>
+ 	<p><input type="button" id="run_others-query_button" class="button button-primary" value="Descargar otros" /></p>
 	<p>
 		<input type="button" id="run_query_button" class="button button-primary" value="Run Query" />
 	</p>

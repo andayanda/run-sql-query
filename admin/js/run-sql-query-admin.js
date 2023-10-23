@@ -161,10 +161,11 @@
 		$('#status').show();
 		$('#loading_gif').show();
 		$('#status_detail').html('Running...');
-		var dateControl = document.querySelector('input[type="date"]');
-		// esto no funciona: 		
-		var dateEnd = document.getElementById('input["#endDate"]');
-		
+		//var dateControl = document.querySelector('input[type="date"]');
+		// esto no funciona: 		var dateEnd = document.getElementById('endDate');
+		var dateControl =document.getElementById("startDate").value;
+		var dateEnd =document.getElementById("endDate").value
+	
 		 
 		console.log(dateControl.value); // imprime "2017-06-01"
 		console.log(dateEnd.value);
